@@ -4,8 +4,8 @@ import streamlit as st
 import plotly.express as px
 
 
-header_container = st.container()
-stats_container = st.container()	
+header_container = st.beta_container()
+stats_container = st.beta_container()	
 #######################################
 
 
