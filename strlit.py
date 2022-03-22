@@ -38,7 +38,7 @@ def get_historical_data(symbol, start_date = None):
     df.index = pd.to_datetime(df.index)
     """
     df = pd.read_csv(
-    "CSV/CIPLA_BACKTEST.csv",
+    "CSV/"+symbol+"_BACKTEST.csv",
     index_col=0,
     parse_dates=True,
     )
@@ -50,11 +50,11 @@ def get_historical_data(symbol, start_date = None):
         data_frame = data_frame[data_frame.index >= start_date]
     return data_frame
 
-st.title('mplfinance demo')
+st.title('Daily Jackpot Backtest Demo')
 
 c1, c2, c3 = st.columns([1,1,1])
 with c1:
-    symbol = st.selectbox('Choose stock symbol', options=['AAPL', 'MSFT', 'GOOG', 'AMZN'], index=1)
+    symbol = st.selectbox('Choose stock symbol', options=[ 'CIPLA', 'INFY', 'TATACHEM', 'ITC', 'RELIANCE', 'MARICO', 'SUNPHARMA', 'NAUKRI','TATASTEEL'], index=0)
 with c2:
     date_from = st.date_input('Show data from', date(2021, 10, 1))
 with c3:
