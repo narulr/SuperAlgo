@@ -67,7 +67,7 @@ st.sidebar.subheader('Settings')
 st.sidebar.caption('Adjust charts settings and then press apply')
 
 with st.sidebar.form('settings_form'):
-    show_nontrading_days = st.checkbox('Show non-trading days', True)
+    show_nontrading_days = st.checkbox('Show non-trading days', False)
     # https://github.com/matplotlib/mplfinance/blob/master/examples/styles.ipynb
     chart_styles = [
         'default', 'binance', 'blueskies', 'brasil', 
@@ -76,13 +76,13 @@ with st.sidebar.form('settings_form'):
     ]
     chart_style = st.selectbox('Chart style', options=chart_styles, index=chart_styles.index('starsandstripes'))
     chart_types = [
-        'candle', 'ohlc', 'line', 'renko', 'pnf'
+        'candle', 'ohlc', 'line'
     ]
     chart_type = st.selectbox('Chart type', options=chart_types, index=chart_types.index('candle'))
 
-    mav1 = st.number_input('Mav 1', min_value=3, max_value=30, value=5, step=1)
-    mav2 = st.number_input('Mav 2', min_value=3, max_value=30, value=20, step=1)
-    mav3 = st.number_input('Mav 3', min_value=3, max_value=50, value=50, step=1)
+    mav1 = st.number_input('Moving Average 1', min_value=3, max_value=30, value=5, step=1)
+    mav2 = st.number_input('Moving Average 2', min_value=3, max_value=30, value=20, step=1)
+    mav3 = st.number_input('Moving Average 3', min_value=3, max_value=50, value=50, step=1)
 
     st.form_submit_button('Apply')
 
