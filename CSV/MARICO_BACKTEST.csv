@@ -1,4 +1,4 @@
-symbol,series,date1,prev_close,open_price,high_price,low_price,last_price,close_pric,average_pr,tottrades,turnover,numtrades,delivery,pdelivery,action,avgaction,avgdel,ddate,lottery
+symbol,series,date1,prev_close,open,high,low,last_price,close,average_pr,tottrades,turnover,numtrades,delivery,volume,action,avgaction,avgdel,date,lottery
 "MARICO"," EQ"," 16-Mar-2022"," 511.45"," 516.95"," 529.90"," 513.20"," 527.70"," 525.45"," 522.31"," 2965305"," 15488.04"," 50142"," 1887088"," 63.64",59,40,54.74,03/16/2022,T
 "MARICO"," EQ"," 15-Mar-2022"," 507.10"," 510.00"," 513.80"," 507.25"," 511.70"," 511.45"," 510.61"," 1167973"," 5963.84"," 52435"," 660436"," 56.55",22,40,54.45,03/15/2022,F
 "MARICO"," EQ"," 14-Mar-2022"," 507.55"," 508.50"," 510.35"," 504.15"," 507.00"," 507.10"," 507.07"," 1105361"," 5605.00"," 47181"," 799263"," 72.31",23,41,54.63,03/14/2022,F

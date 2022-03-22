@@ -1,4 +1,4 @@
-symbol,series,date1,prev_close,open_price,high_price,low_price,last_price,close_pric,average_pr,tottrades,turnover,numtrades,delivery,pdelivery,action,avgaction,avgdel,ddate,lottery
+symbol,series,date1,prev_close,open,high,low,last_price,close,average_pr,tottrades,turnover,numtrades,delivery,volume,action,avgaction,avgdel,date,lottery
 "ITC"," EQ"," 16-Mar-2022"," 237.85"," 240.00"," 243.00"," 239.10"," 242.40"," 242.60"," 240.65"," 21629521"," 52051.02"," 132633"," 13145841"," 60.78",163,148,53.15,03/16/2022,T
 "ITC"," EQ"," 15-Mar-2022"," 239.00"," 239.00"," 241.40"," 235.90"," 238.20"," 237.85"," 238.48"," 32998305"," 78694.70"," 159184"," 20863422"," 63.23",207,147,52.78,03/15/2022,T
 "ITC"," EQ"," 14-Mar-2022"," 236.35"," 236.25"," 239.45"," 235.30"," 239.00"," 239.00"," 237.88"," 35113638"," 83528.04"," 153586"," 22869875"," 65.13",229,146,52.32,03/14/2022,T

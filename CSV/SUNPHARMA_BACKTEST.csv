@@ -1,4 +1,4 @@
-symbol,series,date1,prev_close,open_price,high_price,low_price,last_price,close_pric,average_pr,tottrades,turnover,numtrades,delivery,pdelivery,action,avgaction,avgdel,ddate,lottery
+symbol,series,date1,prev_close,open,high,low,last_price,close,average_pr,tottrades,turnover,numtrades,delivery,volume,action,avgaction,avgdel,date,lottery
 "SUNPHARMA"," EQ"," 16-Mar-2022"," 891.65"," 900.00"," 900.00"," 880.45"," 887.70"," 889.20"," 887.33"," 3134307"," 27811.61"," 71887"," 1516180"," 48.37",44,43,50.79,03/16/2022,F
 "SUNPHARMA"," EQ"," 15-Mar-2022"," 892.25"," 893.70"," 908.00"," 881.35"," 892.00"," 891.65"," 892.19"," 4039746"," 36042.18"," 84414"," 1978541"," 48.98",48,43,50.78,03/15/2022,F
 "SUNPHARMA"," EQ"," 14-Mar-2022"," 902.00"," 901.95"," 911.80"," 889.95"," 891.50"," 892.25"," 899.98"," 3861194"," 34749.79"," 81941"," 1468499"," 38.03",47,43,50.91,03/14/2022,F

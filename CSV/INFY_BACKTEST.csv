@@ -1,4 +1,4 @@
-symbol,series,date1,prev_close,open,high,low,last_price,close,average_pr,tottrades,turnover,numtrades,delivery,pdelivery,action,avgaction,avgdel,date,lottery
+symbol,series,date1,prev_close,open,high,low,last_price,close,average_pr,tottrades,turnover,numtrades,delivery,volume,action,avgaction,avgdel,date,lottery
 "INFY"," EQ"," 16-Mar-2022"," 1839.30"," 1865.00"," 1893.95"," 1849.00"," 1889.00"," 1889.40"," 1874.83"," 5233979"," 98128.20"," 154465"," 3133488"," 59.87",34,29,61.96,03/16/2022,F
 "INFY"," EQ"," 15-Mar-2022"," 1890.70"," 1888.35"," 1888.35"," 1830.00"," 1838.00"," 1839.30"," 1852.89"," 7140443"," 132304.85"," 224849"," 4846167"," 67.87",32,29,62.04,03/15/2022,T
 "INFY"," EQ"," 14-Mar-2022"," 1822.00"," 1831.55"," 1895.00"," 1831.55"," 1891.00"," 1890.70"," 1872.10"," 10289724"," 192633.78"," 271878"," 6666093"," 64.78",38,29,62.09,03/14/2022,T

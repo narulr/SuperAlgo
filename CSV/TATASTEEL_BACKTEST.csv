@@ -1,4 +1,4 @@
-symbol,series,date1,prev_close,open_price,high_price,low_price,last_price,close_pric,average_pr,tottrades,turnover,numtrades,delivery,pdelivery,action,avgaction,avgdel,ddate,lottery
+symbol,series,date1,prev_close,open,high,low,last_price,close,average_pr,tottrades,turnover,numtrades,delivery,volume,action,avgaction,avgdel,date,lottery
 "TATASTEEL"," EQ"," 16-Mar-2022"," 1233.75"," 1245.00"," 1271.20"," 1240.20"," 1262.00"," 1265.25"," 1258.54"," 6302451"," 79318.73"," 162595"," 1274540"," 20.22",39,39,25.68,03/16/2022,F
 "TATASTEEL"," EQ"," 15-Mar-2022"," 1297.00"," 1291.80"," 1293.00"," 1228.00"," 1229.05"," 1233.75"," 1251.97"," 9614313"," 120368.20"," 289968"," 3393755"," 35.30",33,39,25.88,03/15/2022,F
 "TATASTEEL"," EQ"," 14-Mar-2022"," 1301.70"," 1305.00"," 1311.70"," 1277.70"," 1298.60"," 1297.00"," 1293.34"," 5278082"," 68263.44"," 155247"," 800405"," 15.16",34,39,25.68,03/14/2022,F
