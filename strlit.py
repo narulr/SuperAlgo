@@ -28,7 +28,7 @@ def annotated(df, act):
         # print(f'Signal = {i}:{signal[i]}')
     return signal
 
-st.experimental_memo(persist='disk')
+#st.experimental_memo(persist='disk')
 def get_historical_data(symbol, start_date = None):
     #df = pdr.get_data_yahoo(symbol, start=start_date, end=datetime.now())
     """
@@ -82,7 +82,7 @@ with st.sidebar.form('settings_form'):
 
     mav1 = st.number_input('Mav 1', min_value=3, max_value=30, value=5, step=1)
     mav2 = st.number_input('Mav 2', min_value=3, max_value=30, value=20, step=1)
-    mav3 = st.number_input('Mav 3', min_value=3, max_value=30, value=50, step=1)
+    mav3 = st.number_input('Mav 3', min_value=3, max_value=50, value=50, step=1)
 
     st.form_submit_button('Apply')
 
