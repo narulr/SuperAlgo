@@ -38,7 +38,7 @@ def get_historical_data(symbol, start_date = None):
     df.index = pd.to_datetime(df.index)
     """
     df = pd.read_csv(
-    "/Users/ravinarula/Downloads/CSV/CIPLA_BACKTEST.csv",
+    "CSV/CIPLA_BACKTEST.csv",
     index_col=0,
     parse_dates=True,
     )
