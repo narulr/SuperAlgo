@@ -1,4 +1,5 @@
 from datetime import date, datetime
+from matplotlib.pyplot import figtext, figure
 import streamlit as st
 import pandas as pd
 import mplfinance as mpf
@@ -45,7 +46,7 @@ def get_historical_data(symbol, start_date = None):
     data_frame = pd.DataFrame(df)
     data_frame = data_frame.rename(columns = {'open_price': 'open', 'high_price': 'high', 'low_price': 'low', 'close_pric': 'close',
         'ddate': 'date', 'pdelivery': 'volume'})
-    print(data_frame.columns)
+    #print(data_frame.columns)
     data_frame["date"] = pd.to_datetime(data_frame["date"])
     data_frame = data_frame.set_index("date").sort_values("date")
     
@@ -82,7 +83,7 @@ with st.sidebar.form('settings_form'):
         'charles', 'checkers', 'classic', 'yahoo',
         'mike', 'nightclouds', 'sas', 'starsandstripes'
     ]
-    chart_style = st.selectbox('Chart style', options=chart_styles, index=chart_styles.index('starsandstripes'))
+    chart_style = st.selectbox('Chart style', options=chart_styles, index=chart_styles.index('yahoo'))
     chart_types = [
         'candle', 'ohlc', 'line'
     ]
@@ -109,9 +110,8 @@ fig, ax = mpf.plot(
     show_nontrading=show_nontrading_days,
     mav=(int(mav1),int(mav2),int(mav3)),
     volume=True,
-
     style=chart_style,
-    figsize=(15,10),
+    figsize=(24,12),
     
     # Need this setting for Streamlit, see source code (line 778) here:
     # https://github.com/matplotlib/mplfinance/blob/master/src/mplfinance/plotting.py
