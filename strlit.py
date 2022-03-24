@@ -55,9 +55,14 @@ def get_historical_data(symbol, start_date = None):
 
 st.title('Daily Jackpot Backtest Demo')
 
+file = pd.read_csv("CSV/symbol.csv")
+#print(file, file["symbol"])
+symbols = file["symbol"].tolist()
+#print(symbols)
 c1, c2, c3 = st.columns([1,1,1])
 with c1:
-    symbol = st.selectbox('Choose stock symbol', options=[ 'CIPLA', 'INFY', 'TATACHEM', 'ITC', 'RELIANCE', 'MARICO', 'SUNPHARMA', 'NAUKRI','TATASTEEL'], index=0)
+    #symbol = st.selectbox('Choose stock symbol', options=[ 'CIPLA', 'INFY', 'TATACHEM', 'ITC', 'RELIANCE', 'MARICO', 'SUNPHARMA', 'NAUKRI','TATASTEEL'], index=0)
+    symbol = st.selectbox('Choose stock symbol', options=symbols, index=0)
 with c2:
     date_from = st.date_input('Show data from', date(2021, 10, 1))
 with c3:
