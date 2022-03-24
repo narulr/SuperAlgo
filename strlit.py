@@ -43,6 +43,9 @@ def get_historical_data(symbol, start_date = None):
     parse_dates=True,
     )
     data_frame = pd.DataFrame(df)
+    data_frame = data_frame.rename(columns = {'open_price': 'open', 'high_price': 'high', 'low_price': 'low', 'close_pric': 'close',
+        'ddate': 'date', 'pdelivery': 'volume'})
+    print(data_frame.columns)
     data_frame["date"] = pd.to_datetime(data_frame["date"])
     data_frame = data_frame.set_index("date").sort_values("date")
     
