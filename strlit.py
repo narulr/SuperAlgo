@@ -120,6 +120,7 @@ fig, ax = mpf.plot(
 
 st.pyplot(fig)
 
-if show_data:
+"""if show_data:
     st.markdown('---')
     st.dataframe(data)
+"""
