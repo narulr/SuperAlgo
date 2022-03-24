@@ -68,7 +68,7 @@ with c2:
     date_from = st.date_input('Show data from', date(2021, 10, 1))
 with c3:
     st.markdown('&nbsp;')
-    show_data = st.checkbox('Show data table', False)
+    #show_data = st.checkbox('Show data table', False)
 
 st.markdown('---')
 
